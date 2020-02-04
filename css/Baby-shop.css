@@ -12,6 +12,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-family: cursive;
+    
 }
 
 h3{
@@ -83,4 +84,9 @@ h4{
   div.desc {
     padding: 15px;
     text-align: center;
+  }
+
+  #button1{
+    padding: 25px 25px 25px 25px;
+
   }
