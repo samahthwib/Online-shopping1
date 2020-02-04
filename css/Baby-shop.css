@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(237, 245, 191);
+  }
+   
+ h1{
+      text-align: center;
+      text-decoration: none;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  h2{
+    text-align: center;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+h3{
+    text-align: center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h4{
+    padding-left: 50px;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(247, 248, 244);
+  }
+  
+  li {
+    float: left;
+  }
+  
+#first {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#second {
+    padding-left: 100px;
+}
+
+  li a {
+    display: block;
+    color: rgb(12, 7, 7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(240, 241, 167);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }   
+  
+  footer p {
+      color: rgb(54, 50, 15);
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
