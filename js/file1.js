@@ -1,4 +1,28 @@
 
+ let enjoy = confirm("Enjoy your shopping!");
+
+ //alert( enjoy ); // true if OK is pressed
+
+
+var babyGender= prompt("what is your baby gender?");
+console .log(babyGender);
+var section1;
+if(babyGender == 'Girl'){
+    section1='Girle section';
+
+}
+else if(babyGender == 'Boy'){
+    section1='Boy section';
+}
+
+else{
+    section1='Both section';
+
+}
+document.write('<h3>'+section1+'</h3>');
+
+
+
 
 var Age= prompt("what is your baby age?");
 console .log(Age);
@@ -29,34 +53,11 @@ var brand = prompt("Please enter your favorite brand", "zara kids");
 
 
    ///////////////////////////////
-   var person = prompt("Please enter your baby name", "ahmad");
-   document.write("Hello " + person + "  "+"mommy ! How are you today?");
-   if (person != null) {
-     document.getElementById("demo1").innerHTML =
-     "Hello " + person + "mommy ! How are you today?";
-   }
+
+   
+  
+   
  
-
-
-//////////////////////////////////////
-
-
- var babyGender= prompt("what is your baby gender?");
-console .log(babyGender);
-var section1;
-if(babyGender == 'Girle'){
-    section1='Girle section';
-
-}
-else if(babyGender == 'Boy'){
-    section1='Boy section';
-}
-
-else{
-    section1='Both section';
-
-}
-document.write('<h3>'+section1+'</h3>');
 //////////////////////////////////////////////////////////
 //function myFunction() {
       
